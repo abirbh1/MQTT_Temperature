@@ -1,0 +1,51 @@
+
+body {
+    background-color: white;
+  }
+  
+ 
+  .hot {
+    background-color: red;
+  }
+  .cold {
+    background-color: blue;
+  }
+  
+.temperature {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+  }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 50px;
+    text-align: center;
+    color: #333;
+    text-shadow: 2px 2px #ccc;
+}
+
+p {
+    font-size: 72px;
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 2px 2px #ccc;
+    transition: all 1s ease-in-out;
+}
+
+p.hot {
+    color: #ff5e5e;
+}
+
+p.cold {
+    color: #87cefa;
+}
+
